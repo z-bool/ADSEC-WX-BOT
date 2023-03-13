@@ -31,13 +31,13 @@ adsec-wx-bot -lineMode true -startTime "12:00" # 命令行扫码并且设置12�
 <p>帮助信息:</p>
 <img src="./img/img.png">
 <p>链接登录:</p>
-![链接登录](https://github.com/z-bool/ADSEC-WX-BOT/blob/main/img/img1.png)
+<img src="./img/img1.png">
 <p>命令行二维码:</p>
-![二维码登录](https://github.com/z-bool/ADSEC-WX-BOT/blob/main/img/img3.png)
+<img src="./img/img3.png">
 <p>结果展示:</p>
-![结果展示](https://github.com/z-bool/ADSEC-WX-BOT/blob/main/img/img2.png)
+<img src="./img/img2.png">
 <p>如果要增加监控的关键词，请修改`common/common.go`中的白名单关键词</p>
-![关键词](https://github.com/z-bool/ADSEC-WX-BOT/blob/main/img/img4.png)
+<img src="./img/img4.png">
 <div id="notice"></div>
 
 ### 注意事项
