@@ -28,15 +28,15 @@ adsec-wx-bot -lineMode true # 开启命令行扫码登录,适用于linux
 adsec-wx-bot # 默认使用链接扫码登录
 adsec-wx-bot -lineMode true -startTime "12:00" # 命令行扫码并且设置12点的定时任务
 ```
-帮助信息:
+<p>帮助信息:</p>
 ![help](./img/img.png)
-链接登录:
+<p>链接登录:</p>
 ![链接登录](./img/img1.png)
-命令行二维码:
+<p>命令行二维码:</p>
 ![二维码登录](./img/img3.png)
-结果展示:
+<p>结果展示:</p>
 ![结果展示](./img/img2.png)
-如果要增加监控的关键词，请修改`common/common.go`中的白名单关键词
+<p>如果要增加监控的关键词，请修改`common/common.go`中的白名单关键词</p>
 ![关键词](./img/img4.png)
 <div id="notice"></div>
 
