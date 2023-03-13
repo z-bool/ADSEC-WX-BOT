@@ -22,7 +22,7 @@ func main() {
 		groups, _ := self.Groups()
 		timezone, _ := time.LoadLocation("Asia/Shanghai")
 		s := gocron.NewScheduler(timezone)
-		s.Every(1).Day().At("13:27").Do(func() {
+		s.Every(1).Day().At("8:00").Do(func() {
 			botService.SendIntelligence(groups)
 		})
 		s.StartBlocking()
