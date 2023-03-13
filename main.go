@@ -14,7 +14,9 @@ func init() {
 
 func main() {
 	var lineMode bool
+	var startTime string
 	flag.BoolVar(&lineMode, "lineMode", false, "是否以命令行模式开启二维码,默认以链接形式(default false)")
+	flag.StringVar(&startTime, "startTime", "8:00", "定时任务时间设置，默认为8:00")
 	flag.Parse()
 	self, bot := botService.CreateBot(lineMode)
 	if self != nil && bot != nil {
@@ -22,7 +24,7 @@ func main() {
 		groups, _ := self.Groups()
 		timezone, _ := time.LoadLocation("Asia/Shanghai")
 		s := gocron.NewScheduler(timezone)
-		s.Every(1).Day().At("8:00").Do(func() {
+		s.Every(1).Day().At(startTime).Do(func() {
 			botService.SendIntelligence(groups)
 		})
 		s.StartBlocking()
