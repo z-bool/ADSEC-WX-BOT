@@ -29,7 +29,7 @@ adsec-wx-bot # 默认使用链接扫码登录
 adsec-wx-bot -lineMode true -startTime "12:00" # 命令行扫码并且设置12点的定时任务
 ```
 <p>帮助信息:</p>
-![help](https://github.com/z-bool/ADSEC-WX-BOT/blob/main/img/img.png)
+<img src="./img/img.png">
 <p>链接登录:</p>
 ![链接登录](https://github.com/z-bool/ADSEC-WX-BOT/blob/main/img/img1.png)
 <p>命令行二维码:</p>
